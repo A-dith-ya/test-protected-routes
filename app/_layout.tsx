@@ -25,6 +25,12 @@ export default function RootLayout() {
           title: "Home",
         }}
       />
+      <Tabs.Screen
+        name="buttonTest"
+        options={{
+          title: "Button Test",
+        }}
+      />
     </Tabs>
   );
 }
